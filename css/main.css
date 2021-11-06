@@ -1,0 +1,99 @@
+main {
+  flex: 1 0 auto;
+}
+
+.main__section--google,
+.main__section--language,
+.form__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  padding: 20px;
+}
+
+.form__input__addon,
+.form__input__addon--item {
+  display: flex;
+}
+
+.form__input__addon {
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: auto;
+  max-width: 584px;
+  padding: 5px 8px 0 14px;
+}
+
+.form__input__addon:hover {
+  box-shadow: 0px 1px 6px #dfe1e5;
+}
+
+.form__input__addon--input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: -2px;
+  height: 34px;
+  font-size: 16px;
+}
+
+.form__input__addon--item {
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.form__input__addon--item--search {
+  height: 20px;
+  width: 20px;
+}
+
+.form__input__addon--item--mic {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.form__buttons {
+  padding-top: 18px;
+}
+
+.form__buttons--item {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.form__buttons--item:hover {
+  border: 1px solid #dfe1e5;
+}
+
+.main__section--language a {
+  color: #1a0dab;
+  text-decoration: none;
+}
